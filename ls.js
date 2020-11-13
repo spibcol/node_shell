@@ -1,5 +1,7 @@
 const fs = require("fs");
 
+console.log('test');
+
 process.stdout.write("prompt > ");
 
 const fileSystem = fs.readdir("./", "utf8", (err, files) => {
